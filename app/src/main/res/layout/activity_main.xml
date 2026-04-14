@@ -20,16 +20,19 @@
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/m3_split_button_chevron_avd"/>
+            android:contentDescription="@string/down_facing_arrow"
+            android:src="@drawable/m3_split_button_chevron_avd" />
 
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/ic_launcher_background"/>
+            android:contentDescription="@string/green_box"
+            android:src="@drawable/ic_launcher_background" />
 
         <ImageView
             android:layout_width="120dp"
             android:layout_height="120dp"
+            android:contentDescription="@string/spider_man"
             android:src="@drawable/spiderman" />
 
     </LinearLayout>
