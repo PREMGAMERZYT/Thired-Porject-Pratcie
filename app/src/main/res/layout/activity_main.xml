@@ -34,7 +34,6 @@
             android:layout_height="120dp"
             android:contentDescription="@string/spiderman"
             android:src="@drawable/spiderman" />
-
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
