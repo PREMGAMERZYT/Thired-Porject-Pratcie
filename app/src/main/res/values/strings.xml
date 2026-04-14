@@ -2,5 +2,6 @@
     <string name="app_name">Thired_app_Project</string>
     <string name="down_facing_arrow">down Facing Arrow</string>
     <string name="green_box">green box</string>
-    <string name="spider_man">Spider man</string>
+    <string name="spiderman">Spider man</string>
+
 </resources>
