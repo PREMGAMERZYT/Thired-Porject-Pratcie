@@ -52,5 +52,20 @@
 
     <!--    learning gravity attrinute-->
 
+<!--    if i am using leaner layout then its my duty to
+        to describe
+        layout width
+        layout height
+        oreantion
+
+        layout width and height can be given  by these three elements
+        1. Match Parrent
+        2. Wrap content
+        3.some value like (10dp)
+
+        and orintation can behorixantal or verticaal
+
+-->
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
