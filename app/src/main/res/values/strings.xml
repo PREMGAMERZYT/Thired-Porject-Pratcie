@@ -4,5 +4,6 @@
     <string name="green_box">green box</string>
     <string name="spiderman"><b>Spider man</b></string>
     <string name="Prem"> Prem Kumar</string>
-
+    <string name="this_is_scroll_view">This is Scroll View</string>
+    <string name="Atriclie"></string>
 </resources>
