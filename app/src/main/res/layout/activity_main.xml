@@ -41,5 +41,7 @@
                 android:layout_height="230dp"
                 app:srcCompat="@drawable/spiderman" />
         </LinearLayout>
+
+
     </HorizontalScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
