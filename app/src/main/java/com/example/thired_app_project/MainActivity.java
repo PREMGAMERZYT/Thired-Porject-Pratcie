@@ -12,6 +12,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    //logginig is the method of printing some thing in the conosle window using (Log.d)
+
+
     private Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
