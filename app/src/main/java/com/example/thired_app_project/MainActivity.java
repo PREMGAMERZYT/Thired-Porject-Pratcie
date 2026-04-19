@@ -24,17 +24,24 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextNumberPassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        long  pass = 2563440563L;
         button = findViewById(R.id.button);
         editTextText = findViewById(R.id.editTextText);
         editTextNumberPassword = findViewById(R.id.editTextNumberPassword);
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-//        button = findViewById(R.id.button5);
+        // button = findViewById(R.id.button5);
         //dp = dencity independent pixel is used to make the size same in every screen ratio
         //concstranrt layout
-        Log.e("genral","this is Prem Kumar");
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String name = editTextText.getText().toString();
+                Log.d("name",name);
 
-
+            }
+        });
     }
 }
