@@ -17,4 +17,5 @@ Early computers were meant to be used only for calculations. Simple manual instr
 
     <string name="name">1.Name : Prem Kumar</string>
     <string name="address">2.Add : kurpa Nagir Hubbali #55</string>
+    <string name="todo">TODO</string>
 </resources>

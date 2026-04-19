@@ -26,17 +26,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        button = findViewById(R.id.button5);
+//        button = findViewById(R.id.button5);
         //dp = dencity independent pixel is used to make the size same in every screen ratio
         //concstranrt layout
         Log.e("genral","this is Prem Kumar");
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                Toast.makeText(MainActivity.this, "PremKumar", Toast.LENGTH_SHORT).show();
-                Log.d("genral","Prem Kumar");
-            }
-        });
+
 
     }
 }
