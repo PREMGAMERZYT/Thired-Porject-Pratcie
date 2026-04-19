@@ -14,6 +14,8 @@ import androidx.core.view.WindowInsetsCompat;
 public class MainActivity extends AppCompatActivity {
 
     //logginig is the method of printing some thing in the conosle window using (Log.d)
+    //there are two arguments in logging 1. tag and 2. message for example =
+    // Log.d("Tag","Hi i am prem Kumar")
 
 
     private Button button;
