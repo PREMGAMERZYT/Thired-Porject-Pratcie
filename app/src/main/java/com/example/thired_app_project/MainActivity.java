@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         button = findViewById(R.id.button5);
         //dp = dencity independent pixel is used to make the size same in every screen ratio
+        //concstranrt layout
         Log.e("genral","this is Prem Kumar");
         button.setOnClickListener(new View.OnClickListener() {
             @Override
