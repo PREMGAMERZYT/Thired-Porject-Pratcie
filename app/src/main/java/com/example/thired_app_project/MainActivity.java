@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
@@ -18,11 +19,14 @@ public class MainActivity extends AppCompatActivity {
     //there are two arguments in logging 1. tag and 2. message for example =
     // Log.d("Tag","Hi i am prem Kumar")
 
-
     private Button button;
+    private EditText editTextText;
+    private EditText editTextNumberPassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
+        button = findViewById(R.id.button);
+        editTextText = findViewById(R.id.editTextText);
+        editTextNumberPassword = findViewById(R.id.editTextNumberPassword);
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
