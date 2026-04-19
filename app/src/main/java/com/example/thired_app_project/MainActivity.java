@@ -1,6 +1,7 @@
 package com.example.thired_app_project;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -30,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "PremKumar", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "PremKumar", Toast.LENGTH_SHORT).show();
+                Log.d("harry","Prem Kumar");
             }
         });
 
