@@ -24,23 +24,36 @@ public class MainActivity extends AppCompatActivity {
     private EditText editTextNumberPassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         long  pass = 2563440563L;
-        button = findViewById(R.id.button);
-        editTextText = findViewById(R.id.editTextText);
-        editTextNumberPassword = findViewById(R.id.editTextNumberPassword);
+        String name1 = "Prem Kumar";
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
+        button = findViewById(R.id.button);
+        editTextText = findViewById(R.id.editTextText);
+        editTextNumberPassword = findViewById(R.id.editTextNumberPassword);
         // button = findViewById(R.id.button5);
         //dp = dencity independent pixel is used to make the size same in every screen ratio
         //concstranrt layout
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String name = editTextText.getText().toString();
-                Log.d("name",name);
 
+                String name = editTextText.getText().toString();
+                Log.d("names", name);
+                String passw = editTextNumberPassword.getText().toString();
+                if (passw.isEmpty()) {
+                    Toast.makeText(MainActivity.this, "Enter The password", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+                long password = Long.parseLong(passw);
+                Log.d("names",passw);
+
+                if (name1.equals(name) && password == pass) {
+                    Toast.makeText(MainActivity.this, "Sucess Login", Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(MainActivity.this, "Wrong Name Or Password", Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
